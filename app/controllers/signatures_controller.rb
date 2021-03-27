@@ -12,7 +12,7 @@ class SignaturesController < ApplicationController
   end
 
   def create
-    @signature = Signature.new(name: "...", city_state: "...", country: "...")
+    @signature = Signature.new(signature_params)
 
     if @signature.save
       redirect_to @signature
