@@ -1,0 +1,20 @@
+<%= form_with model: @signature do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :city_state %><br>
+    <%= form.text_area :city_state %>
+  </div>
+
+   <div>
+    <%= form.label :country %><br>
+    <%= form.text_area :country %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

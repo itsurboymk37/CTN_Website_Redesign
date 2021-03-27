@@ -1,1 +1,13 @@
-<h1>Hello, Rails!</h1>
+<%= link_to "Sign the Petition!", new_signature_path %>
+
+<h1>Signatures</h1>
+
+<ul>
+  <% @signatures.each do |signature| %>
+    <li>
+        <%= link_to signature.name, signature %>
+        <%= signature.city_state %>
+        <%= signature.country %>
+    </li>
+  <% end %>
+</ul>

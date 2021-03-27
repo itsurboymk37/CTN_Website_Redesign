@@ -1,0 +1,12 @@
+<h1><%= @signature.name %></h1>
+
+<p><%= @signature.city_state %></p>
+<p><%= @signature.country %></p>
+<p><%= @signature.id %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_signature_path(@signature) %></li>
+  <li><%= link_to "Destroy", signature_path(@signature),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>
