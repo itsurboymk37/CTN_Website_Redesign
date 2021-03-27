@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.title {
+    text-align: center;
+    color: #1974D2;
+    font-size: 50px;
+    margin: 2px;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navlink {
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}

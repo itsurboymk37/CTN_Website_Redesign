@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "signatures#index"
+  root "about_us#index"
 
   resources :signatures
   resources :about_us
