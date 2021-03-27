@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :signatures
   resources :about_us
+  resources :contact_us
 end
