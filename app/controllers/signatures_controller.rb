@@ -1,4 +1,6 @@
 class SignaturesController < ApplicationController
+  http_basic_authenticate_with name: "password", password: "username", except: [:index, :new, :create]
+  
   def index
     @signatures = Signature.all
   end

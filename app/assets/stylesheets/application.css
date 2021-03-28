@@ -36,3 +36,31 @@
     margin-right: 10px;
     display: inline-block;
 }
+
+.navlink {
+    background-image: url("about_us.png");
+    background-size: 300px;
+    width: 300px;
+    height: 260px;
+}
+
+.navlink2 {
+    background-image: url("sign_the_pledge.png");
+    background-size: 300px;
+    width: 300px;
+    height: 270px;
+}
+
+.navlink3 {
+    background-image: url("contact_us.png");
+    background-size: 300px;
+    width: 300px;
+    height: 260px;
+}
+
+.navlink4 {
+    background-image: url("visit_our_store.png");
+    background-size: 300px;
+    width: 300px;
+    height: 260px;
+}
